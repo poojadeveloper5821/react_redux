@@ -1,10 +1,10 @@
 export const addTodo = () => {
   return {
     type: "ADD_TODO",
-    payload:{
-      id:new Date().getTime().toString(),
-      data:data
-    }
+    payload: {
+      id: new Date().getTime().toString(),
+      data: data,
+    },
   };
 };
 export const deleteTodo = () => {
